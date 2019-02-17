@@ -1,0 +1,74 @@
+::-webkit-scrollbar {
+    background: transparent;
+}
+
+.cross {
+    color: #FF0000;
+    cursor: pointer;
+}
+
+.item {
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+#app {
+    background-color: #B4D7FB;
+    border-radius: 6px;
+    height: 350px;
+    margin-bottom: 5px;
+}
+
+#h1 {
+    text-align: center;
+    margin-top: 0;
+    background-color: #4682B4;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+#header {
+    margin-top: 0;
+}
+
+#footer {
+    color: #FFFFFF;
+    background-color: #4682B4;
+    font-weight: bold;
+    height: 50px;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 45px;
+    vertical-align: middle;
+}
+
+#list {
+    height: 280px;
+    overflow-y: scroll;
+    
+}
+
+#list .item {
+    color: #777777;
+    font-size: 20px;
+}
+
+#newtodo {
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px #FFFFFF solid;
+    border-left: 0px;
+    background-color: #B4D7FB;
+    text-align: center;
+    font-style: italic;
+    outline: none;
+    margin-left: 12%;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 500px) {
+    #newtodo {
+        margin-left: 32%;
+    }
+}
